@@ -18,9 +18,8 @@ bool isPalindrome(int x) {
 */
 
 //ITERATION 2
-//time complexity: O(n) because reverse takes O(n)
+//time complexity: O(n) because reverse takes O(n) (I think)
 //In this one I used substrings and then reversed the second one and checked for equality
-
 bool isPalindrome(int x) {
     string xstr = to_string(x);
     int size = xstr.size();
